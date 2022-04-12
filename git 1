@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    int a=4;
+    float b=6.4;
+
+    char n;
+    double e=9;
+    long f=3;
+    unsigned char g=5;
+    unsigned int h=4;
+    long double i=3;
+    unsigned long j=7;
+    
+    printf("integer :%d\n",a);
+    printf("float  :%f\n",b);
+    
+    printf("character :n\n");
+    printf("double float :%lf\ne");
+    printf("long :%ld\nf");
+    printf("unsigned char :%c\ng");
+    printf("unsigned int :%u\n");
+    printf("long double :%lf\n");
+    printf("unsigned long :%iu\n");
+    
+    return 0;
+}
